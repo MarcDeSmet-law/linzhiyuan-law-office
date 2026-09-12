@@ -63,4 +63,55 @@
     padding: 16px 22px !important;
     text-align: center !important;
   }
+}@media (max-width: 700px) {
+  .hero {
+    display: block !important;
+    min-height: 0 !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .hero > img {
+    position: relative !important;
+    inset: auto !important;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+  }
+
+  .hero-overlay {
+    display: none !important;
+  }
+
+  .hero-content {
+    position: relative !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 40px 7% 45px !important;
+    background: #fff !important;
+  }
+
+  .hero-content h1 {
+    font-size: 38px !important;
+    line-height: 1.1 !important;
+    color: #071c29 !important;
+  }
+
+  .hero-content > p:not(.eyebrow) {
+    color: #172734 !important;
+    font-size: 16px !important;
+  }
+
+  .hero-content .actions {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+
+  .hero-content .actions .btn {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
 }
